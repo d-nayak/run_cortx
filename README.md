@@ -5,7 +5,8 @@ A bash-script framework to automate CORTX setup and run on a single node VM
 * VM running Rocky 8.4 (minimal setup)
 
 # Usage
-./prep_node.sh **rocky01**
+./prep_node.sh **hostname / IP address of Rocky VM**
+
 ## Does the following:
 * Enables password-less ssh to the VM
 * Sets its hostname to ${node_name}
